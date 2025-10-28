@@ -1,0 +1,95 @@
+
+import { Vehicle } from '../types';
+
+export const MOCK_VEHICLES: Vehicle[] = [
+  {
+    id: 'vehicle_101',
+    group: 'Economy',
+    make: 'Toyota',
+    model: 'Yaris',
+    year: 2023,
+    transmission: 'Automatic',
+    fuel_type: 'Gasoline',
+    passengers: 4,
+    luggage: '1 large',
+    images: ['https://picsum.photos/seed/yaris/800/600', 'https://picsum.photos/seed/yaris_interior/800/600'],
+    features: ['Air Conditioning', 'Bluetooth'],
+    mileage_policy: 'Unlimited',
+    base_rate: { amount: 10500, currency: 'LKR' }
+  },
+  {
+    id: 'vehicle_123',
+    group: 'SUV',
+    make: 'Toyota',
+    model: 'RAV4',
+    year: 2024,
+    transmission: 'Automatic',
+    fuel_type: 'Hybrid',
+    passengers: 5,
+    luggage: '2 large',
+    images: ['https://picsum.photos/seed/rav4/800/600', 'https://picsum.photos/seed/rav4_interior/800/600'],
+    features: ['GPS', 'Child Seat Available', 'Apple CarPlay', 'All-Wheel Drive'],
+    mileage_policy: '200 miles/day',
+    base_rate: { amount: 19500, currency: 'LKR' }
+  },
+  {
+    id: 'vehicle_205',
+    group: 'Luxury',
+    make: 'Mercedes-Benz',
+    model: 'C-Class',
+    year: 2024,
+    transmission: 'Automatic',
+    fuel_type: 'Gasoline',
+    passengers: 5,
+    luggage: '2 large',
+    images: ['https://picsum.photos/seed/cclass/800/600', 'https://picsum.photos/seed/cclass_interior/800/600'],
+    features: ['Leather Seats', 'Sunroof', 'Premium Sound System', 'Heated Seats'],
+    mileage_policy: '150 miles/day',
+    base_rate: { amount: 33000, currency: 'LKR' }
+  },
+  {
+    id: 'vehicle_310',
+    group: 'Van',
+    make: 'Honda',
+    model: 'Odyssey',
+    year: 2023,
+    transmission: 'Automatic',
+    fuel_type: 'Gasoline',
+    passengers: 8,
+    luggage: '4 large',
+    images: ['https://picsum.photos/seed/odyssey/800/600', 'https://picsum.photos/seed/odyssey_interior/800/600'],
+    features: ['Sliding Doors', 'Rear Entertainment System', '3-Zone Climate Control'],
+    mileage_policy: 'Unlimited',
+    base_rate: { amount: 24000, currency: 'LKR' }
+  },
+   {
+    id: 'vehicle_415',
+    group: 'Convertible',
+    make: 'Ford',
+    model: 'Mustang',
+    year: 2024,
+    transmission: 'Automatic',
+    fuel_type: 'Gasoline',
+    passengers: 4,
+    luggage: '1 small',
+    images: ['https://picsum.photos/seed/mustang/800/600', 'https://picsum.photos/seed/mustang_interior/800/600'],
+    features: ['Heated/Cooled Seats', 'Convertible Top', 'Performance Package'],
+    mileage_policy: '150 miles/day',
+    base_rate: { amount: 28500, currency: 'LKR' }
+  },
+  {
+    id: 'vehicle_501',
+    group: 'Compact',
+    make: 'Honda',
+    model: 'Civic',
+    year: 2023,
+    transmission: 'Automatic',
+    fuel_type: 'Gasoline',
+    passengers: 5,
+    luggage: '2 large',
+    images: ['https://picsum.photos/seed/civic/800/600', 'https://picsum.photos/seed/civic_interior/800/600'],
+    features: ['Apple CarPlay', 'Lane Keep Assist', 'Adaptive Cruise Control'],
+    mileage_policy: 'Unlimited',
+    base_rate: { amount: 12600, currency: 'LKR' }
+  }
+];
